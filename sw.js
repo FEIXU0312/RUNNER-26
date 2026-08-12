@@ -1,5 +1,5 @@
 /* Service Worker — cache-first, offline-proof. Bump CACHE version to force refresh. */
-const CACHE = 'runner26-v3';
+const CACHE = 'runner26-v4';
 const CORE = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', (e) => {
